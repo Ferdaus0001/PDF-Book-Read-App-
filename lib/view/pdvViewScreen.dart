@@ -71,6 +71,7 @@ class _PdvViewScreenState extends State<PdvViewScreen> with SingleTickerProvider
       body: Stack(
         children: [
           PDFView(
+
             filePath: widget.pdfPath,
             enableSwipe: true,
             swipeHorizontal: true,

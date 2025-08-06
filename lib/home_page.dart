@@ -163,7 +163,7 @@ class _PdfScreenState extends State<PdfScreen> with SingleTickerProviderStateMix
       ),
       body: _isLoading
           ? const Center(
-        child: CircularProgressIndicator(color: Colors.deepPurple),
+        child: CircularProgressIndicator(color: Colors.blueAccent),
       )
           : _filteredFiles.isEmpty
           ? Center(
